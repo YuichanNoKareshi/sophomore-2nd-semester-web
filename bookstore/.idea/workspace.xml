@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4e9ee622-f852-4234-8db4-fdb5300ac929" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/config-overrides.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/LoginRoute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/PrivateRoute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/Router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/assets/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/assets/carousel/book1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/assets/carousel/book2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/assets/carousel/book3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/assets/carousel/book4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/assets/logo-name.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/assets/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/assets/timg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/components/Book.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/components/BookCarousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/components/BookDetail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/components/BookList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/components/HeaderInfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/components/LoginForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/components/SearchBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/components/SideBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/components/UserAvatar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/css/bookDetail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/css/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/services/bookService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/services/userService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/utils/ajax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/utils/history.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/view/BookView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/view/HomeView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore_frontend/src/view/LoginView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore_frontend/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore_frontend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore_frontend/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore_frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore_frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore_frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore_frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore_frontend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore_frontend/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/bookstore_frontend" />
+  </component>
+  <component name="ProjectId" id="1ZIF6Q2CYEfqtfxoX3LyJJ90Bc7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2019.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4e9ee622-f852-4234-8db4-fdb5300ac929" name="Default Changelist" comment="" />
+      <created>1584518525307</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584518525307</updated>
+      <workItem from="1584518526827" duration="9465000" />
+      <workItem from="1584542622448" duration="640000" />
+      <workItem from="1584615740826" duration="2527000" />
+      <workItem from="1584675402104" duration="479000" />
+      <workItem from="1584695521712" duration="2395000" />
+      <workItem from="1584970867949" duration="66000" />
+      <workItem from="1584970972478" duration="11000" />
+      <workItem from="1585227062337" duration="684000" />
+      <workItem from="1585229789313" duration="1108000" />
+      <workItem from="1585305858845" duration="9000" />
+      <workItem from="1585473859042" duration="4745000" />
+      <workItem from="1585495593653" duration="599000" />
+      <workItem from="1585554136414" duration="1490000" />
+      <workItem from="1587742139667" duration="2041000" />
+      <workItem from="1587816343634" duration="11560000" />
+      <workItem from="1587884904311" duration="5669000" />
+      <workItem from="1588177724324" duration="404000" />
+      <workItem from="1588249478979" duration="21000" />
+      <workItem from="1588249524435" duration="4283000" />
+      <workItem from="1588255225602" duration="194000" />
+      <workItem from="1588256021465" duration="5455000" />
+      <workItem from="1588305351688" duration="10459000" />
+      <workItem from="1588495986710" duration="773000" />
+      <workItem from="1588521748970" duration="1371000" />
+      <workItem from="1588557819667" duration="17000" />
+      <workItem from="1588604968546" duration="1225000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="129" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584519058845">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="129" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1368.872@0.0.1368.872" timestamp="1584519058845" />
+    <state x="465" y="191" key="FileChooserDialogImpl" timestamp="1588557834035">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="465" y="191" key="FileChooserDialogImpl/0.0.1368.872@0.0.1368.872" timestamp="1588557834035" />
+    <state x="437" y="158" key="RollbackChangesDialog" timestamp="1587888827816">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="437" y="158" key="RollbackChangesDialog/0.0.1368.872@0.0.1368.872" timestamp="1587888827816" />
+    <state x="368" y="260" key="com.intellij.ide.util.TipDialog" timestamp="1584970971777">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="368" y="260" key="com.intellij.ide.util.TipDialog/0.0.1368.872@0.0.1368.872" timestamp="1584970971777" />
+    <state x="50" y="160" key="new project wizard" timestamp="1584544377520">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="50" y="160" key="new project wizard/0.0.1368.872@0.0.1368.872" timestamp="1584544377520" />
+  </component>
+</project>
