@@ -1,0 +1,90 @@
+/* pages/books/books.wxss */
+.table {
+  border: 0px solid darkgray;
+  font-size: 12px;
+}
+.tr {
+  border: 0.3px solid darkgray;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 2rem;
+  align-items: center;
+}
+.td {
+    width:40%;
+    justify-content: center;
+    text-align: center;
+}
+.td0 {
+  width:10%;
+  justify-content: center;
+  text-align: center;
+}
+.bg-w{
+  background: snow;
+}
+
+.th {
+  width: 40%;
+  justify-content: center;
+  background: #3366FF;
+  color: #fff;
+  display: flex;
+  height: 2rem;
+  align-items: center;
+}
+.th0 {
+  width: 10%;
+  justify-content: center;
+  background: #3366FF;
+  color: #fff;
+  display: flex;
+  height: 2rem;
+  align-items: center;
+}
+
+@keyframes around {
+  from {
+   margin-left: 100%;
+  }
+  to {
+   /* var接受传入的变量 */
+   margin-left: var(--marqueeWidth--);
+  }
+ }
+ 
+.marquee_container{
+  background-color: #fe4655;
+  height: 50rpx;
+  line-height: 44rpx;
+  position: relative;
+  width: 100%;
+  margin-top:0rpx;
+}
+.marquee_container:hover{
+  /* 不起作用 */
+  animation-play-state: paused;
+}
+.marquee_text{
+  color:#fff;
+  font-size: 28rpx;
+  display: inline-block;
+  white-space: nowrap;
+  animation-name: around;
+  animation-duration: 10s;  /*过渡时间*/
+  animation-iteration-count: infinite;
+  animation-timing-function:linear;
+}
+
+.introduction_text{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:white;
+}
+
+.mybutton {
+  border: none
+}
+

@@ -1,0 +1,41 @@
+<!--pages/books/books.wxml-->
+<view>
+<view class="icon van-icon van-icon van-icon-upgrade van-icon-upgrade" style="font-size: 32rpx;"></view> 
+<!--跑马灯-->
+  <custom-swiper imgUrls="{{carouselImgUrls}}" /> 
+<!--广告条-->
+  <view class="marquee_container" style="--marqueeWidth--:-12em">
+    <view class="marquee_text">welcome to ebook</view>
+</view>
+<!--书籍-->
+  <view style="display:flex; justify-content:space-around; flex-wrap:wrap; margin-bottom:150rpx;">
+    <block wx:for="{{books}}" wx:for-item="book" style="width:20rem;height:15rem;">
+      <view style="width:9rem; height:15rem;">
+        <van-image 
+          bindtap="bindViewTap" 
+          data-book='{{book}}' 
+          width="9rem" height="12rem" 
+          fit="contain" 
+          src="{{book.bookmore.picture}}" 
+          lazy-load="true"/> 
+      </view>
+      <view style="width:9rem;height:15rem;">
+        <view style="margin-top:2rem;margin-bottom:1rem;">
+        <text>{{book.name}}</text>
+        </view><view style="margin-top:1rem;margin-bottom:1rem;">
+        <text>{{book.author}}</text>
+        </view><view style="margin-top:1rem;margin-bottom:3rem;">
+        <text>¥{{book.price}}</text>
+        </view>
+      </view>
+    </block> 
+  </view>
+  <!--底边栏-->
+  <van-tabbar active="{{ active }}" bind:change="onChange" >
+    <van-tabbar-item icon="home-o">商城</van-tabbar-item>
+    <van-tabbar-item icon="cart-o" bindtap="goToCart">购物车</van-tabbar-item>
+    <van-tabbar-item icon="orders-o" bindtap="goToRecord">订单</van-tabbar-item>
+    <van-tabbar-item icon="setting-o">设置</van-tabbar-item>
+  </van-tabbar>
+
+</view>

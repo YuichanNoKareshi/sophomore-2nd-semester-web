@@ -1,0 +1,37 @@
+
+<view>
+<!--书籍-->
+  <!-- <view style="display:flex; justify-content:space-around; flex-wrap:wrap; margin-bottom:150rpx;">
+    <block wx:for="{{books}}" wx:for-item="book" >
+      <view style=" height:15rem;text-align:center">
+        <text>{{book.book_name}} </text>
+        <text>{{book.tot_number}} </text>
+        <text>{{book.tot_price}}</text>
+      </view>
+    </block> 
+  </view> -->
+  <view class="table">
+    <view class="tr bg-w">
+      <view class="th">书籍</view>
+      <view class="th0">数量</view>
+      <view class="th0 ">价格</view>
+      <view class="th">  </view>
+    </view>
+    <block wx:for="{{books}}" wx:for-item="book" wx:key="{{book.book_id}}">
+      <view class="tr" >
+        <view class="td">{{book.book_name}}</view>
+        <view class="td0">{{book.tot_number}}</view>
+        <view class="td0">{{book.tot_price}} ￥</view>
+        <view class="td">
+          <van-button size="mini" bindtap="onSub" data-book_id="{{book.book_id}}">-</van-button>
+          <van-button size="mini" bindtap="onAdd" data-book_id="{{book.book_id}}">+</van-button>
+        </view>
+      </view>
+    </block>
+  </view>
+    <van-submit-bar
+      price="{{all_price}}"
+      button-text="清空购物车"
+      bind:submit="onSubmit"
+    />
+</view>

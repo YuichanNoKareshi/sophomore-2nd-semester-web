@@ -1,0 +1,7 @@
+/* pages/book/book.wxss */
+.introduction_text{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:black;
+}

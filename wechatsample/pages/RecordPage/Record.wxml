@@ -1,0 +1,51 @@
+
+<view>
+<!--书籍-->
+  <!-- <view style="display:flex; justify-content:space-around; flex-wrap:wrap; margin-bottom:150rpx;">
+    <block wx:for="{{books}}" wx:for-item="book" >
+      <view style=" height:15rem;text-align:center">
+        <text>{{book.book_name}} </text>
+        <text>{{book.tot_number}} </text>
+        <text>{{book.tot_price}}</text>
+      </view>
+    </block> 
+  </view> -->
+  <view class="table" style="margin-bottom:150rpx;">
+    <view class="tr bg-w">
+      <view class="th_30_orange">日期</view>
+      <view class="th_50_orange">详情</view>
+      <view class="th_20_orange ">总价</view>
+    </view>
+    <block wx:for="{{orders}}" wx:for-item="order" wx:key="{{order.order_id}}">
+      <view class="tr" >
+        <view class="td_30">{{order.date}}</view>
+
+        <view class="td_50">
+          <view class="table">
+            <view class="tr bg-w">
+              <view class="th_50_red">书名</view>
+              <view class="th_20_red">数量</view>
+              <view class="th_30_red ">总价</view>
+            </view>
+          </view>
+          <block wx:for="{{order.items}}" wx:for-item="item" wx:key="{{order.items.name}}">
+            <view class="tr" >
+              <view class="td_50">{{item.name}}</view>
+              <view class="td_20">{{item.number}}</view>
+              <view class="td_30">{{item.prices}} ￥</view>
+            </view>
+          </block>
+        </view>
+
+        <view class="td_20">{{order.tot_price}} ￥</view>
+      </view>
+    </block>
+  </view>
+
+  <van-tabbar active="{{ active }}" bind:change="onChange" >
+    <van-tabbar-item icon="home-o" bindtap="goToMart">商城</van-tabbar-item>
+    <van-tabbar-item icon="cart-o" bindtap="goToCart">购物车</van-tabbar-item>
+    <van-tabbar-item icon="orders-o" >订单</van-tabbar-item>
+    <van-tabbar-item icon="setting-o">设置</van-tabbar-item>
+  </van-tabbar>
+</view>

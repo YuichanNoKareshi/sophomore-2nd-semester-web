@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "custom-swiper": "../components/customSwiper/customSwiper",
+    "van-button": "../../miniprogram_npm/@vant/weapp/button/index",
+    "van-submit-bar": "../../miniprogram_npm/@vant/weapp/submit-bar/index"
+  }
+}
